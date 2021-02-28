@@ -1,6 +1,13 @@
 XML - xtensible markup language 
-Used to send data between servers to client and browsers
+Used to send data between servers to clients and browsers
 Used to configure data and framework in Andriod
-Has 2 parts - Layout and Data 
+Has 2 parts - Layout and Data also known as structure and content of xml 
+Needs a root tag
+Every opening tag must have a closing tag
+whitespace is preserved in xml 
+An xml prolog is a term that is used to descripe the version and character encoding in xml 
+Xml elements can also have attributes 
+Xml files can also work with HTML and CSS code
+
 
 
