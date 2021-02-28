@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8?">      //xml prolog
+<Arsenal>            //root tag 
+  <Forwards>        //element tag1
+      <name>Aubameyang</name>     //sub element tag 
+      <name>Bukayo Saka</name>
+  </Forwards>
+  
+  </Mids>                  //sub element tag 2
+    <name>Xhaka</name>
+    <name>Partey</name>
+  </Mids>
+  
+  <Defense>            //sub element tag 3
+    <name>Gabriel</name>
+    <name>Holding</name>
+  </Defense>
+</Arsenal>  
+
+all tags must be case sensitive and closed  
