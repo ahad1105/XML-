@@ -8,6 +8,8 @@ whitespace is preserved in xml
 An xml prolog is a term that is used to descripe the version and character encoding in xml 
 Xml elements can also have attributes 
 Xml files can also work with HTML and CSS code
+Xml uses predefined tags unlike HTML
+Xml elements are case sensitive
 
 
 
