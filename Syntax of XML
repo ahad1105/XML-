@@ -1,19 +1,20 @@
 <?xml version = "1.0" encoding = "UTF-8?">      //xml prolog
 <Arsenal>            //root tag 
-  <Forwards>        //element tag1
+  <Forwards quality="first class">        //element tag1 with attribute "first class" 
       <name>Aubameyang</name>     //sub element tag 
       <name>Bukayo Saka</name>
   </Forwards>
   
-  </Mids>                  //sub element tag 2
+  </Mids quality="first class">                  //sub element tag 2
     <name>Xhaka</name>
     <name>Partey</name>
   </Mids>
   
-  <Defense>            //sub element tag 3
+  <Defense quality="first class">            //sub element tag 3
     <name>Gabriel</name>
     <name>Holding</name>
   </Defense>
 </Arsenal>  
 
 all tags must be case sensitive and closed  
+all the attributes of any element must either be single quoted or double quoted!
