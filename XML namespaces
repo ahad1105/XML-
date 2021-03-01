@@ -1,0 +1,38 @@
+//xml namespaces are used to reduce conflicts between different elements of xml
+
+This XML carries HTML table information:
+<table>
+  <tr>
+    <td>Forwards</td>
+    <td>Midfielders</td>
+    <td>Defenders</td>
+  </tr>
+</table>
+
+This XML carries information about a table (a piece of furniture):
+<table>
+  <name>Japnese Cofee Table</name>
+  <width>78</width>
+  <length>56</length>
+</table>
+
+to end the name conflicts we have : 
+<g:table>
+  <g:tr>
+    <g:td>Forwards</g:td>
+    <g:td>Midfielders</g:td>
+    <g:td>Defenders</g:td>
+  </g:tr>
+</g:table>
+
+<f:table>
+  <f:name>African Coffee Table</f:name>
+  <f:width>80</f:width>
+  <f:length>120</f:length>
+</f:table>
+
+//to use namespace character we have to use xmnls attribute along with uri(uniform resource locator feature) 
+//A Uniform Resource Identifier (URI) is a string of characters which identifies an Internet Resource.
+//The namespace can be defined by an xmlns attribute in the start tag of an element.
+//The namespace declaration has the following syntax. xmlns:prefix="URI".
+// eg -   <h:table xmlns:h="http://www.w3.org/TR/html4/">
