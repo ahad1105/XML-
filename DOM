@@ -1,0 +1,10 @@
+Xml docs is used to represent xml/html content as a tree structure .
+Using DOM we can read /updata/simplify xml structure
+DOM - Document(file) object(tags/elements) Model(layout structure)
+Its an API , which can also be used with java script.
+We can also acess elements from the tree structure using DOM = txt = xmlDoc.getElementsByTagName("player")[0].childNodes[0].nodeValue;
+Dom can also be an OOP representation from the webpage , which can b modifed from the scripting language such as javascript 
+Demo : https://opensource-demo.orangehrmlive.com/
+Demo website for Dom viewer : https://software.hixie.ch/utilities/js/live-dom-viewer/
+
+
